@@ -29,5 +29,17 @@ namespace main
             models.archive frm = new models.archive();
             frm.ShowDialog();
         }
+
+        private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            models.distributor frm = new models.distributor();
+            frm.ShowDialog();
+        }
+
+        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            models.country frm = new models.country();
+            frm.ShowDialog();
+        }
     }
 }
