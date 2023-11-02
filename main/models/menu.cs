@@ -41,5 +41,11 @@ namespace main
             models.country frm = new models.country();
             frm.ShowDialog();
         }
+
+        private void barButtonItem2_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            models.authors frm = new models.authors();
+            frm.ShowDialog();
+        }
     }
 }

@@ -54,3 +54,6 @@ C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\M
 C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Mvp\main\obj\Debug\main.pdb
 C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Mvp\main\obj\Debug\main.models.frm_cateogry.resources
 C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Mvp\main\obj\Debug\main.models.archive.resources
+C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Mvp\main\obj\Debug\main.models.country.resources
+C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Mvp\main\obj\Debug\main.models.distributor.resources
+C:\Users\Xxx\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\Mvp\main\obj\Debug\main.models.authors.resources
