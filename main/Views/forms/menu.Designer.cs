@@ -67,7 +67,7 @@
             this.ribbonPage1,
             this.ribbonPage2,
             this.ribbonPage3});
-            this.ribbon.Size = new System.Drawing.Size(842, 167);
+            this.ribbon.Size = new System.Drawing.Size(799, 167);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
             // barButtonItem1
@@ -268,17 +268,17 @@
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 640);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 336);
             this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(842, 22);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(799, 22);
             // 
             // menu
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(842, 662);
+            this.ClientSize = new System.Drawing.Size(799, 358);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Font = new System.Drawing.Font("Cairo", 12F);

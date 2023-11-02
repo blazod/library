@@ -52,60 +52,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="models\archive.cs">
+    <Compile Include="Var\cateogry.cs" />
+    <Compile Include="Views\face\icateogry.cs" />
+    <Compile Include="Views\forms\archive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="models\archive.Designer.cs">
+    <Compile Include="Views\forms\archive.Designer.cs">
       <DependentUpon>archive.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\country.cs">
+    <Compile Include="Views\forms\country.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="models\country.Designer.cs">
+    <Compile Include="Views\forms\country.Designer.cs">
       <DependentUpon>country.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\distributor.cs">
+    <Compile Include="Views\forms\distributor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="models\distributor.Designer.cs">
+    <Compile Include="Views\forms\distributor.Designer.cs">
       <DependentUpon>distributor.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\frm_cateogry.cs">
+    <Compile Include="Views\forms\frm_cateogry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="models\frm_cateogry.Designer.cs">
+    <Compile Include="Views\forms\frm_cateogry.Designer.cs">
       <DependentUpon>frm_cateogry.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\menu.cs">
+    <Compile Include="Views\forms\menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="models\menu.Designer.cs">
+    <Compile Include="Views\forms\menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="models\authors.cs">
+    <Compile Include="Views\forms\authors.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="models\authors.Designer.cs">
+    <Compile Include="Views\forms\authors.Designer.cs">
       <DependentUpon>authors.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="models\archive.resx">
+    <EmbeddedResource Include="Views\forms\archive.resx">
       <DependentUpon>archive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="models\country.resx">
+    <EmbeddedResource Include="Views\forms\country.resx">
       <DependentUpon>country.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="models\distributor.resx">
+    <EmbeddedResource Include="Views\forms\distributor.resx">
       <DependentUpon>distributor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="models\frm_cateogry.resx">
+    <EmbeddedResource Include="Views\forms\frm_cateogry.resx">
       <DependentUpon>frm_cateogry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="models\menu.resx">
+    <EmbeddedResource Include="Views\forms\menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="models\authors.resx">
+    <EmbeddedResource Include="Views\forms\authors.resx">
       <DependentUpon>authors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -130,8 +132,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="presenter\" />
-    <Folder Include="view\" />
+    <Folder Include="Execute\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
