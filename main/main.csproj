@@ -52,6 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="models\archive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="models\archive.Designer.cs">
+      <DependentUpon>archive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\frm_cateogry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="models\frm_cateogry.Designer.cs">
+      <DependentUpon>frm_cateogry.cs</DependentUpon>
+    </Compile>
     <Compile Include="models\menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="models\archive.resx">
+      <DependentUpon>archive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="models\frm_cateogry.resx">
+      <DependentUpon>frm_cateogry.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="models\menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>

@@ -17,5 +17,17 @@ namespace main
         {
             InitializeComponent();
         }
+
+        private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            models.frm_cateogry frm = new models.frm_cateogry();
+            frm.Show();
+        }
+
+        private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            models.archive frm = new models.archive();
+            frm.ShowDialog();
+        }
     }
 }
