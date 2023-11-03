@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace main.Views.face
 {
-    interface icateogry
+   public interface icateogry
     {
-
-
+        int id { get; set; }
+        string name { get; set; }
     }
 
 }

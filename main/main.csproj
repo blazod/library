@@ -52,6 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Execute\presenter\cateogry_presenter.cs" />
+    <Compile Include="Execute\services\cateogry_services.cs" />
+    <Compile Include="Execute\services\server.cs" />
     <Compile Include="Var\cateogry.cs" />
     <Compile Include="Views\face\icateogry.cs" />
     <Compile Include="Views\forms\archive.cs">
@@ -131,9 +134,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Execute\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
